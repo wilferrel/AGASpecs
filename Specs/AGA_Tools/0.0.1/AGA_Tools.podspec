@@ -11,14 +11,14 @@ Pod::Spec.new do |s|
 	s.name             = 'AGA_Tools'
 	s.version          = '0.0.1'
 	s.summary          = 'AGA Tools'
-	s.homepage         = 'https://github.com/IdleHandsApps/IHKeyboardAvoiding/'
+	s.homepage         = 'https://bitbucket.org/wilferrel/aga_ios_tools.git'
 	s.description      = 'Collection of AGA Tools'
 	s.license          = 'MIT'
 	s.author           = { 'Wil Ferrel' => 'wilferrel@gmail.com' }
 	s.source           = { :git => 'https://bitbucket.org/wilferrel/aga_ios_tools.git', :tag => "0.0.1" }
 	s.platform     = :ios, '7.1'
-	s.source_files = '/Classes/*.{h,m}'
-	s.public_header_files = '/Classes/*.h'
+	s.source_files = 'AGA_iOS_Tools/Classes/*.{h,m}'
+	s.public_header_files = 'AGA_iOS_Tools/Classes/*.h'
 
 	s.ios.deployment_target = '7.1'
 	s.requires_arc = true
@@ -29,5 +29,5 @@ Pod::Spec.new do |s|
 	s.dependency 'SBJson', '~> 4.0.0'
 	s.dependency 'NHBalancedFlowLayout', '~> 0.2'
 	s.dependency 'SDWebImage', '~> 3.7.1'
-
+	s.dependency 'UIActivityIndicator-for-SDWebImage'
 end
