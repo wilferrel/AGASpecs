@@ -1,11 +1,3 @@
-#
-#  Be sure to run `pod spec lint AGA_Tools.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
-
 Pod::Spec.new do |s|
 
 	s.name             = 'AGA_Tools'
@@ -15,11 +7,9 @@ Pod::Spec.new do |s|
 	s.description      = 'Collection of AGA Tools'
 	s.license          = 'MIT'
 	s.author           = { 'Wil Ferrel' => 'wilferrel@gmail.com' }
-	s.source           = { :git => 'https://bitbucket.org/wilferrel/aga_ios_tools.git', :tag => "0.0.1" }
+	s.source           = { :git => 'https://bitbucket.org/wilferrel/aga_ios_tools.git', :tag => s.version.to_s }
 	s.platform     = :ios, '7.1'
-	s.source_files = '/Classes/*.{h,m}'
-	s.public_header_files = '/Classes/*.h'
-
+	s.source_files = 'Classes/*.{h,m}'	
 	s.ios.deployment_target = '7.1'
 	s.requires_arc = true
 	s.dependency 'AFNetworking', '2.4.1'
