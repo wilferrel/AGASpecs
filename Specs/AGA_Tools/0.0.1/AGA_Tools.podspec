@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
 	s.description      = 'Collection of AGA Tools'
 	s.license          = 'MIT'
 	s.author           = { 'Wil Ferrel' => 'wilferrel@gmail.com' }
-	https://wilferrel@bitbucket.org/wilferrel/aga_ios_tools.git
 	s.source           = { :git => 'https://bitbucket.org/wilferrel/aga_ios_tools.git', :tag => 0.0.1 }
 	s.platform     = :ios, '7.1'
 	s.source_files = 'Classes/*.{h,m}'
