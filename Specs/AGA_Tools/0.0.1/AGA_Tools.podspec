@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
 	s.source           = { :git => 'https://bitbucket.org/wilferrel/aga_ios_tools.git', :tag => s.version.to_s }
 	s.platform     = :ios, '7.1'
 	s.source_files = 'Classes/*.{h,m}'	
+	s.source_files  = "AGA_iOS_Tools", "AGA_iOS_Tools/**/*.{h,m}"
 	s.ios.deployment_target = '7.1'
 	s.requires_arc = true
 	s.dependency 'AFNetworking', '2.4.1'
