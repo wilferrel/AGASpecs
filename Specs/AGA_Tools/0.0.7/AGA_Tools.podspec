@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
 	s.dependency 'SBJson', '~> 4.0.0'
 	s.dependency 'NHBalancedFlowLayout', '~> 0.2'
 	s.dependency 'SDWebImage', '~> 3.7.2'
-	s.dependency 'UIActivityIndicator-for-SDWebImage', :git => 'https://github.com/wilferrel/UIActivityIndicator-for-SDWebImage'
+	s.dependency 'UIActivityIndicator-for-SDWebImage'
 end
