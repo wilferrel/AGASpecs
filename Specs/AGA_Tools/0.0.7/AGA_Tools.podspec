@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
 	s.dependency 'NSHash', '1.0.1'
 	s.dependency 'SBJson', '~> 4.0.0'
 	s.dependency 'NHBalancedFlowLayout', '~> 0.2'
-	s.dependency 'SDWebImage', '~> 3.7.2'
+	s.dependency 'SDWebImage', '~> 3.7.1'
 	s.dependency 'UIActivityIndicator-for-SDWebImage'
 end
