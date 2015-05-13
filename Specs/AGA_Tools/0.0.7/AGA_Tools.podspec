@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 	# s.source_files  = "AGA_iOS_Tools", "AGA_iOS_Tools/**/*.{h,m}"
 	s.ios.deployment_target = '7.1'
 	s.requires_arc = true
-	s.dependency 'AFNetworking', '2.5.0'
+	s.dependency 'AFNetworking', '2.5.3'
 	s.dependency 'Mantle', '1.4.1'
 	s.dependency 'Lockbox', '1.4.9'
 	s.dependency 'NSHash', '1.0.1'
