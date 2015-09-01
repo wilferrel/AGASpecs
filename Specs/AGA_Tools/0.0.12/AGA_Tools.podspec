@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 	s.name             = 'AGA_Tools'
-	s.version          = '0.0.11'
+	s.version          = '0.0.12'
 	s.summary          = 'AGA Tools'
 	s.homepage         = 'https://bitbucket.org/wilferrel/aga_ios_tools.git'
 	s.description      = 'Collection of AGA Tools'
@@ -20,5 +20,7 @@ Pod::Spec.new do |s|
 	s.dependency 'SBJson', '~> 4.0.0'
 	s.dependency 'NHBalancedFlowLayout', '~> 0.2'
 	s.dependency 'UICKeyChainStore', '~> 2.0.6'
+	s.dependency 'SVProgressHUD', '~> 1.1.3'
+	
 	
 end
