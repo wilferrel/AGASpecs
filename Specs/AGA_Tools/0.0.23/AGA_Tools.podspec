@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 	s.dependency 'SBJson', '~> 4.0.0'
 	s.dependency 'NHBalancedFlowLayout', '~> 0.2'
 	s.dependency 'UICKeyChainStore', '~> 2.0.6'
-	s.dependency 'SVProgressHUD', '~> 1.1.3'
+	s.dependency 'SVProgressHUD', '~> 2.0-beta'
 	s.dependency 'HandyAutoLayout'
 	
 	
