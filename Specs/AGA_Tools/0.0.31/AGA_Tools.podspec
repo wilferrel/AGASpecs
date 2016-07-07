@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 	s.description      = 'Collection of AGA Tools'
 	s.license          = 'MIT'
 	s.author           = { 'Wil Ferrel' => 'wilferrel@gmail.com' }
-	s.source           = { :git => 'https://bitbucket.org/AvantGardeApps/aga_ios_tools.git', :tag => s.version.to_s }
+	s.source           = { :git => 'git@bitbucket.org:AvantGardeApps/aga_ios_tools.git', :tag => s.version.to_s }
 	s.platform     = :ios, '7.1'
 	s.source_files = 'Classes/*.{h,m}'
 	# s.source_files  = "AGA_iOS_Tools", "AGA_iOS_Tools/**/*.{h,m}"
