@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 	s.name             = 'AGA_Tools'
-	s.version          = '0.0.32'
+	s.version          = '0.0.33'
 	s.summary          = 'AGA Tools'
 	s.homepage         = 'https://bitbucket.org/AvantGardeApps/aga_ios_tools.git'
 	s.description      = 'Collection of AGA Tools'
