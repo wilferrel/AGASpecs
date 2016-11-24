@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
 	s.dependency 'UICKeyChainStore', '~> 2.1.0'
 	s.dependency 'SVProgressHUD', '~> 1.1.3'
 	s.dependency 'HandyAutoLayout'
+	s.dependency 'SAMKeychain'
 	
 	
 	
