@@ -15,4 +15,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'SwiftHEXColors'
   spec.dependency 'EZSwiftExtensions'
   spec.dependency 'Alexandria'
+  spec.dependency 'PromiseKit', '~> 4.0'
+  spec.dependency 'Result', '~> 3.0'
 end
