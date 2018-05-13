@@ -8,12 +8,11 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'git@bitbucket.org:wilferrel/agaessentials.git', :tag => spec.version.to_s }
   spec.source_files = 'AGAEssentials/**/*.{h,m,swift}'
   spec.requires_arc = true
-  spec.platform     = :ios, '9.0'
+  spec.platform     = :ios, '11.0'
   spec.module_name  = 'AGAEssentials'
   spec.dependency 'SwiftyJSON'
   spec.dependency 'Moya'
   spec.dependency 'SwiftHEXColors'
-  spec.dependency 'EZSwiftExtensions'
   spec.dependency 'PromiseKit'
   spec.dependency 'Result'
   spec.dependency 'Alamofire'
